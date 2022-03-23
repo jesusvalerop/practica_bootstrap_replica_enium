@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.row > div{
+    border: 2px solid white;
+    text-align: center;
+}
+
+.cabecera, .pie{
+    height: 100px;
+    line-height: 100px;
+}
+
+.centro{
+    height: auto;
+    min-height: 720px;
+}
+

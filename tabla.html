@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Bootstrap - Contacto</title>
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="./assets/css/estilos.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand" href="index.html">
+        <img id="logo" src="./assets/images/ENIUN@2x.png" alt="Logotipo de la web">
+      </a>
+      <!-- Menu -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Servicios
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">SEO</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Desarrollo Web</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Marketing Online</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./tabla.html">Tabla</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Buscar...">
+          <button class="btn btn-outline-secondary btn-primary text-white" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="container"> 
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb mt-4">
+          <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Tabla</li>
+        </ol>
+      </nav>
+    <!--Tabla-->
+    <h2 class="text-center mt-5 mb-4">Tabla</h2>
+    <hr>
+    <table class="table table-primary table-striped table-bordered border-dark table-responsive">
+      <thead class="table-dark text-white">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Apellido</th>
+          <th scope="col">Identificador</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Jesus</td>
+          <td>Valero</td>
+          <td>@val</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Antonio</td>
+          <td>García</td>
+          <td>@gar</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>María</td>
+          <td>Portugués</td>
+          <td>@por</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>Jose</td>
+          <td>Robles</td>
+          <td>@rob</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>Alejandro</td>
+          <td>Manzano</td>
+          <td>@man</td>
+        </tr>
+        <tr>
+          <th scope="row">8</th>
+          <td>Rodrigo</td>
+          <td>Alves</td>
+          <td>@alv</td>
+        </tr>
+        <tr>
+          <th scope="row">9</th>
+          <td>Juan</td>
+          <td>Perales</td>
+          <td>@per</td>
+        </tr>
+        <tr>
+          <th scope="row">10</th>
+          <td>Francisco</td>
+          <td>Lucas</td>
+          <td>@luc</td>
+        </tr>
+        <tr>
+          <th scope="row">11</th>
+          <td>Laura</td>
+          <td>Acuña</td>
+          <td>@acu</td>
+        </tr>
+        <tr>
+          <th scope="row">12</th>
+          <td>Pedro</td>
+          <td>Diz</td>
+          <td>@diz</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+  <div class="container-fluid">
+    <!--Footer-->
+    <footer class="row bg-primary text-white">
+        <div class="col-6">
+            <p class="text-start">Enium.com</p>
+        </div>
+        <div class="col-6">
+            <p class="text-end text-justify">Política de privacidad y cookies</p>
+        </div>
+    </footer>
+  </div>
+  <!-- SCRIPTS -->
+  <script src="./assets/js/popper.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+</body>
+</html>
